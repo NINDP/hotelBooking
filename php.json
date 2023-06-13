@@ -18,21 +18,31 @@
   "rooms": [
     {
       "id": 0,
-      "roomNumber":"24",
+      "roomNumber": "24",
       "countBeds": 3,
       "location": "center",
       "isVacant": true,
       "hotel": 1,
       "cost": 2000
     },
+
     {
       "id": 1,
-      "roomNumber":"254",
+      "roomNumber": "254",
       "countBeds": 4,
       "location": "right",
       "isVacant": true,
       "hotel": 2,
       "cost": 3000
+    },
+    {
+      "id": 2,
+      "roomNumber": "25",
+      "countBeds": 5,
+      "location": "left",
+      "isVacant": false,
+      "hotel": 1,
+      "cost": 5000
     }
   ],
   "orders": [
