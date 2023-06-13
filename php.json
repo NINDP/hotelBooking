@@ -1,0 +1,63 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Novgorod",
+      "address": "Veliky Novgorod",
+      "number": "+7(999)-394-90-33",
+      "director": "Nefodov I.S."
+    },
+    {
+      "id": 2,
+      "name": "MoscowSity",
+      "address": "Moscow",
+      "number": "+7(999)-399-90-33",
+      "director": "Nefodova N.I."
+    }
+  ],
+  "rooms": [
+    {
+      "id": 0,
+      "roomNumber":"24",
+      "countBeds": 3,
+      "location": "center",
+      "isVacant": true,
+      "hotel": 1,
+      "cost": 2000
+    },
+    {
+      "id": 1,
+      "roomNumber":"254",
+      "countBeds": 4,
+      "location": "right",
+      "isVacant": true,
+      "hotel": 2,
+      "cost": 3000
+    }
+  ],
+  "orders": [
+    {
+      "id": 0,
+      "arrivalDate": "06.11.23",
+      "departureDate": "12.06.2023",
+      "room": 0,
+      "cost": 3000
+    },
+    {
+      "id": 1,
+      "arrivalDate": "13.06.2023",
+      "departureDate": "15.06.2023",
+      "room": 0,
+      "cost": 2000
+    }
+  ],
+  "clients": [
+    {
+      "id": 0,
+      "name": "Natali",
+      "surname": "Nefodova",
+      "phoneNumber": "+7(908)293-25-52",
+      "email": "natali419915@yandex.ru"
+    }
+  ]
+}
