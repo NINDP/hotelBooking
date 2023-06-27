@@ -10,12 +10,12 @@ function viewRooms()
         }
     } else {
         die(json_encode([
-            'status' => true,
+            'status' => false,
             'rooms' => $a["rooms"]
         ]));
     }
     die(json_encode([
-        'status' => false,
+        'status' => true,
         'rooms' => $result
     ]));
 }
