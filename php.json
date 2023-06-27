@@ -17,22 +17,12 @@
   ],
   "rooms": [
     {
-      "id": 0,
-      "roomNumber": "24",
-      "countBeds": 3,
-      "location": "center",
-      "isVacant": true,
-      "hotel": 1,
-      "cost": 2000
-    },
-
-    {
       "id": 1,
       "roomNumber": "254",
       "countBeds": 4,
       "location": "right",
-      "isVacant": true,
-      "hotel": 2,
+      "isVacant": false,
+      "hotel": 1,
       "cost": 3000
     },
     {
@@ -41,23 +31,32 @@
       "countBeds": 5,
       "location": "left",
       "isVacant": false,
-      "hotel": 1,
+      "hotel": 2,
       "cost": 5000
+    },
+    {
+      "id": 3,
+      "roomNumber": "232A",
+      "countBeds": 3,
+      "location": "center",
+      "isVacant": true,
+      "hotel": 1,
+      "cost": 2500
     }
   ],
   "orders": [
     {
       "id": 0,
       "arrivalDate": "06.11.23",
-      "departureDate": "12.06.2023",
-      "room": 0,
+      "departureDate": "27.06.2023",
+      "room": 1,
       "cost": 3000
     },
     {
       "id": 1,
       "arrivalDate": "13.06.2023",
       "departureDate": "15.06.2023",
-      "room": 0,
+      "room": 2,
       "cost": 2000
     }
   ],
